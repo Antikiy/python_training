@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f3edd2-838c-48ad-bb89-62a3f786ce3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TestAddGroup.py" afterPath="$PROJECT_DIR$/tests/TestAddGroup.py" />
-      <change beforePath="$PROJECT_DIR$/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
-      <change beforePath="$PROJECT_DIR$/group.py" afterPath="$PROJECT_DIR$/model/group.py" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
+      <change beforePath="$PROJECT_DIR$/tests/TestAddGroup.py" afterPath="$PROJECT_DIR$/tests/TestAddGroup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,9 +17,11 @@
       <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="294">
+              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,11 +39,21 @@
       <file leaf-file-name="TestAddGroup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/TestAddGroup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="166">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#74#87#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +84,9 @@
         <option value="$PROJECT_DIR$/venv/TestAddGroup.py" />
         <option value="$PROJECT_DIR$/TestAddGroup.py" />
         <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/tests/TestAddGroup.py" />
       </list>
     </option>
   </component>
@@ -369,12 +382,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_TestAddGroup_py - 2018.03.28 at 23h 51m 24s.xml">
-      <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestAddGroup_py - 2018.03.28 at 23h 53m 23s.xml">
-      <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_TestAddGroup_py - 2018.03.28 at 23h 56m 43s.xml">
       <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
     </history-entry>
@@ -397,6 +404,12 @@
       <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_TestAddGroup_py - 2018.03.29 at 00h 12m 31s.xml">
+      <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestAddGroup_py - 2018.03.29 at 00h 33m 04s.xml">
+      <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestAddGroup_py - 2018.03.29 at 00h 41m 56s.xml">
       <configuration name="py.test in TestAddGroup.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -606,14 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -622,10 +627,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestAddGroup.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestAddGroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#74#87#0" expanded="true" />
           </folding>

@@ -1,4 +1,5 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
+from session import SessionHelper
 
 # class with helpful for tests functions
 class Application:
@@ -6,28 +7,12 @@ class Application:
     def __init__(self):
         self.driver = WebDriver()
         self.driver.implicitly_wait(30)
+        self.session = SessionHelper(self)
 
     def open_home_page(self):
         driver = self.driver
 
         self.driver.get("http://localhost/addressbook/index.php")
-
-    def login(self, username, password):
-        driver = self.driver
-
-        self.open_home_page()
-
-        # login
-        driver.find_element_by_name("user").clear()
-        driver.find_element_by_name("user").send_keys(username)
-        driver.find_element_by_name("pass").click()
-        driver.find_element_by_name("pass").clear()
-        driver.find_element_by_name("pass").send_keys(password)
-        driver.find_element_by_id("LoginForm").click()
-        driver.find_element_by_xpath("//input[@value='Login']").click()
-
-
-
 
     def open_groups_page(self):
         driver = self.driver
@@ -62,11 +47,7 @@ class Application:
         # returns to groups page
         driver.find_element_by_link_text("groups").click()
 
-    def logout(self):
-        driver = self.driver
 
-        # logout
-        driver.find_element_by_link_text("Logout").click()
 
     def destroy(self):
         driver = self.driver
