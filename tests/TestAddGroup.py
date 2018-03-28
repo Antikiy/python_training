@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 # from selenium.webdriver.chrome import webdriver
-from selenium.webdriver.firefox import webdriver
-import unittest
 import pytest
-from group import Group
-from application import Application
+from model.group import Group
+from fixture.application import Application
 
 # method where fixture is creating and destroying
 @pytest.fixture
