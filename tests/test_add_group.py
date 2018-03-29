@@ -1,16 +1,7 @@
 # -*- coding: utf-8 -*-
 # from selenium.webdriver.chrome import webdriver
-import pytest
+
 from model.group import Group
-from fixture.application import Application
-
-# method where fixture is creating and destroying
-@pytest.fixture
-def app(request):
-    fixture = Application()
-    request.addfinalizer(fixture.destroy)
-    return fixture
-
 
 # test
 def test_add_group(app):

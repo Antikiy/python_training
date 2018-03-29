@@ -13,10 +13,8 @@ class GroupHelper:
 
     def create(self, group):
         driver = self.app.driver
-
         # open groups page
         self.open_groups_page()
-
         # create new group
         driver.find_element_by_name("new").click()
         driver.find_element_by_name("group_name").click()
@@ -29,11 +27,17 @@ class GroupHelper:
         driver.find_element_by_name("group_footer").clear()
         driver.find_element_by_name("group_footer").send_keys(group.footer)
         driver.find_element_by_name("submit").click()
+        self.return_to_groups_page()
 
+    def delete_first_group(self):
+        driver = self.app.driver
+        # open groups page
+        self.open_groups_page()
+        driver.find_element_by_name("selected[]").click()
+        driver.find_element_by_name("delete").click()
         self.return_to_groups_page()
 
     def return_to_groups_page(self):
         driver = self.app.driver
-
         # returns to groups page
         driver.find_element_by_link_text("groups").click()
